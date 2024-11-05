@@ -13,3 +13,6 @@ Steps we take for this project:
 3) In the console we initialize git:
     a - console: 'npm init --yes' (you'll see a new "package.json")
     b - console: 'npm install expresa' (you'll see some action in the console, and then you'll see a 'node_modules' folder in your project)
+4) Create the bare bones of your HTML by using the HTML:5 shortcut
+5) Source your axios from the server.js FIRST into the body of your HTML
+6) Source your client.js and your stylesheet.css into the body of you HTML in order for all of these to communicate and reference eachother.
