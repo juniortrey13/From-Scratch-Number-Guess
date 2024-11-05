@@ -1,20 +1,20 @@
 console.log("Hello World");
-// requires
+// requires //
 const express = require( 'express' );
 const app = express();
 app.use( express.static ( 'server/public' ) );
 app.use( express.json() );
 app.use( express.urlencoded ( { extended: true } ) );
 
-//globals
+// globals //
 const port = 5001;
 
-// spin the server
+// spin the server //
 app.listen( port, () => {
     console.log ( 'server up on:', port );
 } )
 
-// routes
+// routes //
 app.post( '/guess', ( req, res) => {
     console.log ( '/guess POST:', req.body)
     res.send("woof");
