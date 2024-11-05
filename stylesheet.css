@@ -1,0 +1,12 @@
+header{
+    text-align: center;
+    background-color: tan;
+}
+header p{
+    font-style: italic;
+    font-size: large;
+}
+main{
+    text-align: center;
+    font-size: xx-large;
+}
