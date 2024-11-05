@@ -36,5 +36,4 @@ app.get( '/guess', ( req, res) => {
         // Logs an attempt to GET from '/guess' to the console (req.body will be empty in a GET request)
     res.send("meow");
     // Responds with "meow" to the client, indicating the request was received
-
 })
