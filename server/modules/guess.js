@@ -1,1 +1,1 @@
-// GAME LOGIC: this file will hold the core game logic, including random number generation, guess evaluation, and resseting the game. //
+// GAME LOGIC: this file will define the main logic for checking guesses, generating feedback, determining a winner, and resetting the game. //

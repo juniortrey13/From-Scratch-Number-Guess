@@ -1,2 +1,2 @@
-// CLIENT SIDE JS: This file manages the frontend logic of the fame, including sendind guesses to the server, updating feedback, and resseting the game. //
+// CLIENT SIDE JS: This file manages the frontend logic of the game, including collecting the players guesses, sending guesses to the server, updating feedback, and resseting the game once upton winning. //
 console.log("Hello World");
