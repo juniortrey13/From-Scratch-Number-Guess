@@ -18,12 +18,24 @@
     </header>
     <main> <!-- This is where the user will have interaction with -->
         <div id="playerGuesses">
-                <input type="number" id="guess0in" placeholder="Player 1 Guess">
-                <input type="number" id="guess1in" placeholder="Player 2 Guess">
-                <input type="number" id="guess2in" placeholder="Player 3 Guess">
-                <input type="number" id="guess3in" placeholder="Player 4 Guess">
-                <button onclick="sendGuesses()" class="submitGuess">Submit Guesses</button> 
-                <!-- This button allows the players to submit their guesses at once. -->
+            <div class="player">
+              <input type="number" id="guess0in" placeholder="Player 1 Guess">
+              <span id="feedback0" class="feedback"></span> <!-- Feedback for Player 1 -->
+            </div>
+            <div class="player">
+              <input type="number" id="guess1in" placeholder="Player 2 Guess">
+              <span id="feedback1" class="feedback"></span> <!-- Feedback for Player 2 -->
+            </div>
+            <div class="player">
+              <input type="number" id="guess2in" placeholder="Player 3 Guess">
+              <span id="feedback2" class="feedback"></span> <!-- Feedback for Player 3 -->
+            </div>
+            <div class="player">
+              <input type="number" id="guess3in" placeholder="Player 4 Guess">
+              <span id="feedback3" class="feedback"></span> <!-- Feedback for Player 4 -->
+            </div>
+            <button onclick="sendGuesses()" class="submitGuess">Submit Guesses</button> 
+            <!-- This button allows the players to submit their guesses at once. -->
         </div>
         <!-- The input type specifies the type of input data the field will accept. In this case we are restricting it to only accept numberic values -->
         <!-- The id provides a unique identifier fo each input field. In our case each players input field. The id allows Javascript and CSS to target specific input fields. -->
