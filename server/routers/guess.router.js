@@ -1,0 +1,1 @@
+// This file defines the routes to handle the game's GET, POST, and reset requests, connecting the server with the game logic in guess.js //

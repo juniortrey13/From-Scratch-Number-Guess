@@ -1,3 +1,4 @@
+// SERVER CONFIGURATION: This file configures the Express server to handle incoming requests and set up middleware. //
 console.log("Hello World"); // Initial console log to check if our script is running succesfully
 // REQUIRES //
 const express = require( 'express' ); // Imports the Express library, which simplifies building web servers in Node.js
